@@ -3,35 +3,38 @@
 
 # 创始团队合约地址分配规则
 两年后每月释放5%，20个月释放完。
+合约地址：[0x3fec14f48a038ed29688943741fb6c4bf0027510](https://etherscan.io/address/0x3fec14f48a038ed29688943741fb6c4bf0027510)
 ```sh
   amount         1,000,000（锁仓数量)
   beneficiary    "0xB359eDB95cef97e5862E0899aE52be8e96E36cee"（锁仓地址）   
   start,          now+10s
   cliffDuration,  63072000s (2年）
-  duration,       51840000s (20个月，每个月按照30天计算）
+  duration,       114912000s (20个月，每个月按照30天计算）
   revocable      false（不可以撤销）
 ```
 
 
 # 投资机构团队合约地址分配规则
 两年后每月释放5%，20个月释放完
+合约地址：[0xbe02e3b2ae2239f45f23b729adbc7d12584a167b](https://etherscan.io/address/0xbe02e3b2ae2239f45f23b729adbc7d12584a167b)
 ```sh
   amount         600,000（锁仓数量)
   beneficiary    "0xDD6E4E63d71be7c238Cd408F2BFa4Bf6EF3b1d4D"（锁仓地址）   
   start,          now+10s
   cliffDuration,  63072000s (2年）
-  duration,       51840000s (20个月，每个月按照30天计算）
+  duration,       114912000s (20个月，每个月按照30天计算）
   revocable      false（不可以撤销）
 ```
 
 # 技术开发者团队合约地址分配规则
 半年后每月释放10%，10个月释放完
+合约地址：[0xbe02e3b2ae2239f45f23b729adbc7d12584a167b](https://etherscan.io/address/0xbe02e3b2ae2239f45f23b729adbc7d12584a167b)
 ```sh
   amount         500,000（锁仓数量)
   beneficiary    "0x9D58fDf0849Ad62226eD7D468606e39Dae1f3Bb0"（锁仓地址）   
   start,          now+10s
   cliffDuration,  15811200s (半年，半年按照183天）
-  duration,       25920000s (10个月，每个月按照30天计算）
+  duration,       41731200s (10个月，每个月按照30天计算）
   revocable      false（不可以撤销）
 ```
 
